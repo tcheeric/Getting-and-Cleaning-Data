@@ -14,6 +14,13 @@
 		
 	- Variables
 		-- Activity
+			Possible values are:
+			WALKING
+			WALKING_UPSTAIRS
+			WALKING_DOWNSTAIRS
+			SITTING
+			STANDING
+			LAYING
 		-- Time Body Accelerometer Mean-X
 		-- Time Body Accelerometer Mean-Y
 		-- Time Body Accelerometer Mean-Z
@@ -108,4 +115,3 @@
 		-- Frequency Body Body Accelerometer Jerk Signal Magnitude Standard Deviation
 		-- Frequency Body Body Gyroscope Magnitude Standard Deviation
 		-- Frequency Body Body Gyroscope Jerk Signal Magnitude Standard Deviation
-	- Data
