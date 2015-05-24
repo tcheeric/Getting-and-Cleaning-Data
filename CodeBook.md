@@ -1,4 +1,17 @@
 	- Transformations
+		. Load the required libraries
+		. Load the train data set
+			.. Load the activity values from y_train.txt
+			.. Load the subjects from subject_train.txt
+			.. Load the features from X_train.xml
+		. Load teh test data set
+			.. Load the activity values from y_test.txt
+			.. Load the subjects from subject_test.txt
+			.. Load the features from X_test.xml
+		. Merge both test and train data set in one single target data set
+		. Drop all columns that don't have the words "mean" or "contain" in their headers
+		. Compute the average of each variable for each activity and each subject.
+		
 	- Variables
 		-- Activity
 		-- Time Body Accelerometer Mean-X
