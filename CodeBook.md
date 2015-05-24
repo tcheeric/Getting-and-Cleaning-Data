@@ -2,11 +2,11 @@
 	- Variables
 		-- Activity
 		-- Time Body Accelerometer Mean-X
-        -- Time Body Accelerometer Mean-Y
+        	-- Time Body Accelerometer Mean-Y
 		-- Time Body Accelerometer Mean-Z
-        -- Time Gravity Accelerometer Mean-X
+        	-- Time Gravity Accelerometer Mean-X
 		-- Time Gravity Accelerometer Mean-Y
-    	-- Time Gravity Accelerometer Mean-Z
+    		-- Time Gravity Accelerometer Mean-Z
 		-- Time Body Accelerometer Jerk Signal Mean-X
 		-- Time Body Accelerometer Jerk Signal Mean-Y
 		-- Time Body Accelerometer Jerk Signal Mean-Z
