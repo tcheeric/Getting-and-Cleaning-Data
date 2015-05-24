@@ -68,56 +68,6 @@ load_data <- function(mode) {
         data_set <- rep(mode, times = nrow(features))
         cbind(subjects, activities, data_set, features)
 
-        #message("binding...")
-        #result <- cbind(df_orig, result)
-
-        # Load Internal Signals
-#         base_dir <- paste("./UCI HAR Dataset/", mode, "/Inertial Signals/", sep="")
-#
-#         for(c in c("x", "y", "z")) {
-#                 file <- paste(base_dir, "total_acc_", c, "_", mode, ".txt", sep = "")
-#
-#                 message("loading ", file, "...")
-#                 df_orig <- read_fwf(file=file, col_positions = fwf_widths(rep(16, times=128)))
-#
-#                 message("Calculating means...")
-#                 tmp <- rowMeans(df_orig)
-#                 message("binding...")
-#                 result <- cbind(result, tmp)
-#                 header <- paste("total acceleration mean", c, sep = " ")
-#                 result <- renameLastColumnHeader(result, header)
-#
-#
-#                 message("Calculating standard deviation...")
-#                 tmp <- apply(df_orig, 1, sd)
-#                 message("binding...")
-#                 result <- cbind(result, tmp)
-#                 header <- paste("total acceleration sd", c, sep = " ")
-#                 result <- renameLastColumnHeader(result, header)
-#
-#
-#                 for(t in c("_acc_", "_gyro_")) {
-#
-#                         message("loading ", file, "...")
-#                         file <- paste(base_dir, "body", t, c, "_", mode, ".txt", sep = "")
-#                         df_orig <- read_fwf(file=file, col_positions = fwf_widths(rep(16, times=128)))
-#
-#                         message("Calculating means...")
-#                         tmp <- rowMeans(df_orig)
-#                         message("binding...")
-#                         result <- cbind(result, tmp)
-#                         header <- paste("body", t, "mean", sep=" ")
-#                         result <- renameLastColumnHeader(result, header)
-#
-#                         message("Calculating standard deviations...")
-#                         tmp <- apply(df_orig, 1, sd)
-#                         message("binding...")
-#                         result <- cbind(result, tmp)
-#                         header <- paste("body", t, "sd", sep=" ")
-#                         result <- renameLastColumnHeader(result, header)
-#                 }
-#         }
-
 }
 
 # Load required libraries
