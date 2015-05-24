@@ -1,5 +1,5 @@
 	- Transformations
-		. Load the required libraries
+		. Load the required libraries (readr, dplyr, reshape2)
 		. Load the train data set
 			.. Load the activity values from y_train.txt
 			.. Load the subjects from subject_train.txt
